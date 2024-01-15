@@ -46,3 +46,34 @@ nav li a{
 .baner-discriptio{
     color: #727272;
 }
+
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.tems-container{
+    display: flex;
+    align-items: center ;
+}
+.tems-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.tems-containes-text{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.tems-containes-title{
+    font-size: 2.8rem;
+}
+.tems-containes-title .one{
+    color:  #727272;
+    font-weight: 500;
+}
+.tems-containes-title .three{
+    color:  #FF900E;
+    font-weight: 700;
+}
